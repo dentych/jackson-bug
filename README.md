@@ -4,7 +4,7 @@ A proof of concept for a bug in Jackson serializer
 ## The issue
 
 There are fields in capital letters. These fields are annotated with @JsonProperty.
-See (MyCollection.java)[src/main/java/me/tychsen/test/MyCollection.java]
+See [MyCollection.java](src/main/java/me/tychsen/test/MyCollection.java)
 
 The output that comes out is incorrect. See here:
 
